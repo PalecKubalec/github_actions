@@ -26,3 +26,5 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Get python version
       run: python --version
+    - name: Run python script
+      run: python test.py  
